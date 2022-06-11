@@ -1,20 +1,20 @@
 /* Box Model Hack */
 * {
-     -moz-box-sizing: border-box;
+  -moz-box-sizing: border-box;
 }
 
 /* Clear fix hack */
 .clearfix:after {
-     content: ".";
-     display: block;
-     clear: both;
-     visibility: hidden;
-     line-height: 0;
-     height: 0;
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
 }
 
 .clear {
-	clear: both;
+  clear: both;
 }
 
 /******************************************
@@ -22,19 +22,50 @@
 /*******************************************/
 
 body {
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(/images/tile1.jpg);
+  background-repeat: repeat;
+  background-color: rgba(255, 255, 255, 0.942);
 }
-
 
 /******************************************
 /* LAYOUT
 /*******************************************/
-header {
-
+h1,
+h2 {
+  background-color: white;
+  padding: 5px;
+}
+h2 {
+  margin-top: 0;
 }
 
-footer {
+h1 {
+  margin-bottom: 0;
+}
 
+#content {
+  display: flex;
+  margin: 25px;
+}
+
+#quadra {
+  background-color: rgb(255, 255, 255);
+  height: 100%;
+  font-size: 18px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-weight: 600;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+button {
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 600;
 }
 
 /******************************************
