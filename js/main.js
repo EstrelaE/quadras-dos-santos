@@ -71,7 +71,10 @@ const sayings = [
   },
   {
     popular: [
-      "Santo António de Lisboa | Era um grande pregador | Mas é por ser Santo António |Que as moças lhe têm amor",
+      "Santo António de Lisboa", 
+      "Era um grande pregador", 
+      "Mas é por ser Santo António", 
+      "Que as moças lhe têm amor",
     ],
     dixa: [
       "Santa Alexandra do Mação",
